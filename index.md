@@ -37,6 +37,14 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
+```java
+# Java code with syntax highlighting
+public static void main(String args[]){
+	System.out.println("TESTE");
+}
+end
+```
+
 #### Header 4
 
 *   This is an unordered list following a header.
