@@ -38,7 +38,7 @@ end
 ```
 
 ```java
-# Java code with syntax highlighting
+// Java code with syntax highlighting
 public static void main(String args[]){
 	System.out.println("TESTE");
 }
