@@ -1,29 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Ismael Lunkes | Portfólio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ismael Lunkes | Backend Engineer</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="enhanced.css">
+<link rel="stylesheet" href="ultra.css">
+
 </head>
+
 <body>
-<header>
-  <h1>Ismael Lunkes</h1>
-  <p>Desenvolvedor Java | Backend | APIs</p>
+
+<header class="hero">
+  <div class="container">
+    <h1>Ismael Lunkes</h1>
+    <p>Backend Engineer | Java | APIs | Mensageria</p>
+
+    <div class="buttons">
+      <a href="#projects" class="btn">Ver Projetos</a>
+      <a href="https://github.com/ismaellunkes" class="btn secondary">GitHub</a>
+    </div>
+  </div>
 </header>
-<section>
-  <h2>Sobre mim</h2>
-  <p>Desenvolvedor com experiência em Java, JSF, PrimeFaces e mensageria (ActiveMQ). Focado em evolução contínua em testes, CI/CD e arquitetura de sistemas.</p>
+
+<section class="about container">
+  <h2>Sobre</h2>
+  <p>
+    Desenvolvedor backend com experiência em Java, mensageria e APIs escaláveis.
+    Foco em performance, boas práticas e arquitetura moderna.
+  </p>
 </section>
-<section>
-  <h2>Projetos</h2>
-  <div class="card">
-    <h3>Projeto Exemplo</h3>
-    <p>API REST com Java e Spring Boot.</p>
-    <a href="#">Ver no GitHub</a>
+
+<section class="skills container">
+  <h2>Stack Técnica</h2>
+  <div class="grid">
+    <span>Java</span>
+    <span>Spring Boot</span>
+    <span>REST APIs</span>
+    <span>ActiveMQ</span>
+    <span>JUnit</span>
+    <span>Docker</span>
+    <span>CI/CD</span>
+    <span>SQL</span>
   </div>
 </section>
+
+<section id="projects" class="projects container">
+  <h2>Projetos</h2>
+
+  <div class="card">
+    <h3>API de Pedidos</h3>
+    <p>Spring Boot + JWT + arquitetura limpa</p>
+  </div>
+
+  <div class="card">
+    <h3>Sistema Acadêmico</h3>
+    <p>JSF + PrimeFaces</p>
+  </div>
+
+  <div class="card">
+    <h3>Processamento Assíncrono</h3>
+    <p>Integração com ActiveMQ</p>
+  </div>
+
+</section>
+
 <footer>
-  <p>Contato: seuemail@email.com</p>
+  <p>© 2026 - Ismael Lunkes</p>
 </footer>
+
+<script src="script.js"></script>
+<script src="particles.js"></script>
+
 </body>
 </html>
